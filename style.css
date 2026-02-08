@@ -23,7 +23,7 @@ body {
 }
 
 .question-container {
-  position: absolute;
+  position: relative;
   top: 40%;
   left: 50%;
   transition: 0.2s;
@@ -74,6 +74,9 @@ body {
   left: 54%;
 }
 
+.js-no-btn {
+  position: absolute;
+}
 .result-container {
   display: none;
   position: absolute;
@@ -416,3 +419,4 @@ body {
     border-color: rgb(228, 228, 228);
   }
 }
+
